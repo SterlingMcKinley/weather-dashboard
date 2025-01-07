@@ -44,13 +44,14 @@ This project is a Weather Data Collection System that demonstrates core DevOps p
   </li>
 </ul>
 
-## Day-1 Project Rection
+## Day-1 Project Reaction
 <p> Major shoutout and appreciation to Alicia Ahl, DeShae Lyda, Ifeanyi Otuonye, and Kathryn Jones. Day 1 weather dashboard was fun. Great way to start the challenge. I beleive I will learn a lot and enhance my DevOps skillset.</p>  
 
 Script Output:
 
 ![script_output](https://github.com/user-attachments/assets/fb34be15-53e1-4751-b6a5-a02bd5f381ce)
 
+![s3_bucket](https://github.com/user-attachments/assets/1ea62e9e-050e-4249-911b-fb9ce83ae322)
 
 ```markdown
 ## Project Structure
