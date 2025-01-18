@@ -30,6 +30,29 @@ This project is a Weather Data Collection System that demonstrates core DevOps p
   - python-dotenv
   - requests
 
+## Manual Tasks 
+<ul>
+  <li>Sign-Up for OpenWeather API</li>
+  <li>configure env variables</li>
+  <li> create s3 bucket via CLI instead of weather_dashboard.py script
+    <ul> 
+      <li> s3 bucket command: </li>  
+      `aws s3 mb s3://day1-weatherdashboard --region us-east-1`
+      
+  ![create_s3_bucket](https://github.com/user-attachments/assets/bef90e42-b789-4b02-8e58-035de9a5ed18)       
+    </ul>
+  </li>
+</ul>
+
+## Day-1 Project Reaction
+<p> Major shoutout and appreciation to Alicia Ahl, DeShae Lyda, Ifeanyi Otuonye, and Kathryn Jones. Day 1 weather dashboard was fun. Great way to start the challenge. I beleive I will learn a lot and enhance my DevOps skillset.</p>  
+
+Script Output:
+
+![script_output](https://github.com/user-attachments/assets/fb34be15-53e1-4751-b6a5-a02bd5f381ce)
+
+![s3_bucket](https://github.com/user-attachments/assets/1ea62e9e-050e-4249-911b-fb9ce83ae322)
+
 ```markdown
 ## Project Structure
 weather-dashboard/
@@ -76,3 +99,5 @@ Implement data visualization
 Add more cities
 Create automated testing
 Set up CI/CD pipeline
+
+
