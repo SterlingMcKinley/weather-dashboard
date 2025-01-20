@@ -44,6 +44,45 @@ This project is a Weather Data Collection System that demonstrates core DevOps p
   </li>
 </ul>
 
+## Setup Instructions
+1. Clone the repository:
+
+ ```
+ git clone https://github.com/ShaeInTheCloud/30days-weather-dashboard.git
+ ```
+
+3. Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+3. Configure environment variables (.env):
+
+OPENWEATHER_API_KEY=your_api_key
+
+AWS_BUCKET_NAME=your_bucket_name
+
+```
+echo "OPENWEATHER_API_KEY=XXXXXXXXXXXXXXXXX" >> .env
+```
+
+```
+echo "AWS_BUCKET_NAME=day1-weatherdashboard" >> .env
+```
+
+4. Configure AWS credentials:
+   
+```
+aws configure
+```
+
+5. Run the application:
+
+```
+python3 src/weather_dashboard.py
+```
+
 ## Day-1 Project Reaction
 <p> Major shoutout and appreciation to Alicia Ahl, DeShae Lyda, Ifeanyi Otuonye, and Kathryn Jones. Day 1 weather dashboard was fun. Great way to start the challenge. I beleive I will learn a lot and enhance my DevOps skillset.</p>  
 
@@ -52,52 +91,3 @@ Script Output:
 ![script_output](https://github.com/user-attachments/assets/fb34be15-53e1-4751-b6a5-a02bd5f381ce)
 
 ![s3_bucket](https://github.com/user-attachments/assets/1ea62e9e-050e-4249-911b-fb9ce83ae322)
-
-```markdown
-## Project Structure
-weather-dashboard/
-  src/
-    __init__.py
-    weather_dashboard.py
-  tests/
-  data/
-  .env
-  .gitignore
-  requirements.txt
-
-## Setup Instructions
-1. Clone the repository:
---bash
-git clone https://github.com/ShaeInTheCloud/30days-weather-dashboard.git
-
-3. Install dependencies:
-bashCopypip install -r requirements.txt
-
-4. Configure environment variables (.env):
-CopyOPENWEATHER_API_KEY=your_api_key
-AWS_BUCKET_NAME=your_bucket_name
-
-4.Configure AWS credentials:
-bashCopyaws configure
-
-5. Run the application:
-python src/weather_dashboard.py
-
-What I Learned
-
-AWS S3 bucket creation and management
-Environment variable management for secure API keys
-Python best practices for API integration
-Git workflow for project development
-Error handling in distributed systems
-Cloud resource management
-
-Future Enhancements
-
-Add weather forecasting
-Implement data visualization
-Add more cities
-Create automated testing
-Set up CI/CD pipeline
-
-
